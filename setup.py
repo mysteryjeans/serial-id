@@ -33,6 +33,7 @@ setup(
     author='Faraz Khan',
     author_email='mk.faraz@gmail.com',
     url='https://github.com/mysteryjeans/serial-id',
+    download_url='https://github.com/mysteryjeans/serial-id/archive/refs/tags/v-0.1.tar.gz',
     license='MIT License',
     description='Sequential Unique Short & Sortable Identifier',
     long_description=get_long_description(),
