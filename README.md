@@ -10,7 +10,7 @@ It is a short sequential identifier that is random but sortable and only uses 80
 
 ### Why's Serial-Id?
 
-This is a conversion of [ahawker/ulid](https://github.com/ahawker/ulid) 128 bits implementation to short 80 bits identifier with purpose of sortability and uses Crockford's [Base32] (https://www.crockford.com/base32.html) encoding
+This is a conversion of [ahawker/ulid](https://github.com/ahawker/ulid) 128 bits implementation to short 80 bits identifier with purpose of sortability and uses Crockford's [Base32](https://www.crockford.com/base32.html) encoding
 
 ### Installation
 
