@@ -10,7 +10,7 @@ It is a short sequential identifier that is random but sortable and only uses 80
 
 ### Why's Serial-Id?
 
-This is a conversion of [ULID](https://github.com/ahawker/ulid) 128 bits identifier to short 80 bits identifier with purpose of maintaining sortability and uses Crockford's [Base32] (https://www.crockford.com/base32.html) encoding
+This is a conversion of [ahawker/ulid](https://github.com/ahawker/ulid) 128 bits implementation to short 80 bits identifier with purpose of sortability and uses Crockford's [Base32] (https://www.crockford.com/base32.html) encoding
 
 ### Installation
 
@@ -40,9 +40,8 @@ serialid.new()
 ```
 
 ### Sequential Ids but with randomness
-Create a new SerialId from an existing 80-bit value.
 
-Supports SerialId values as `int`, `float`, `bytes`, `str` types.
+Create a new SerialId from an existing 80-bit value with guaranteed sort order.
 
 ```python
 import serialid
