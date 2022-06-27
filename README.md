@@ -1,4 +1,4 @@
-# SeriaId
+# Serial-Id
 
 [![codecov](https://codecov.io/gh/mysteryjeans/serial-id/branch/master/graph/badge.svg)](https://codecov.io/gh/mysteryjeans/serial-id)
 [![Code Climate](https://codeclimate.com/github/mysteryjeans/serial-id/badges/gpa.svg)](https://codeclimate.com/github/mysteryjeans/serial-id)
@@ -8,7 +8,7 @@
 
 It is a short sequential identifier that is random but sortable and only uses 80 bits. First 40 bits are for timestamp and rest of the 40 bits are used for randomness.
 
-### Why's SerialId?
+### Why's Serial-Id?
 
 This is a conversion of [ULID](https://github.com/ahawker/ulid) 128 bits identifier to short 80 bits identifier with purpose of maintaining sortability and uses Crockford's [Base32] (https://www.crockford.com/base32.html) encoding
 
@@ -81,7 +81,7 @@ For cases when you don't necessarily control the data type (input from external 
 which will attempt to make the correct determination for you. Please note that this will be slightly slower than creating
 the instance from the respective `from_*` method as it needs to make a number of type/conditional checks.
 
-Supports values as `int`, `float`, `str`, `bytes`, `bytearray`, `memoryview`, and `SerialID` types.
+Supports values as `int`, `float`, `str`, `bytes`, `bytearray`, `memoryview`, and `SerialId` types.
 
 ```python
 import serialid
