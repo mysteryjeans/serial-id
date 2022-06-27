@@ -14,9 +14,9 @@ This is a conversion of [ahawker/ulid](https://github.com/ahawker/ulid) 128 bits
 
 ### Installation
 
-To install serial-id from [github](https://github.com/mysteryjeans/serial-id.git):
+To install serial-id from [pip](https://pypi.org/project/serial-id/):
 ```bash
-    $ pip install --upgrade git+https://github.com/mysteryjeans/serial-id.git
+    $ pip install serial-id
 ```
 
 To install serial-id from source:
