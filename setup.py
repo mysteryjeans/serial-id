@@ -18,7 +18,7 @@ version_regex = re.compile(r'__version__\s+=\s+(.*)')
 
 
 def get_version():
-    with open('ulid/__init__.py', 'r') as f:
+    with open('serialid/__init__.py', 'r') as f:
         return str(ast.literal_eval(version_regex.search(f.read()).group(1)))
 
 
